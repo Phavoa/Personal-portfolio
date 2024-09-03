@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import "./navbar.scss";
-import Facebook from "../../assets/facebook.png";
+import Facebook from "../../assets/github.png";
 import Instagram from "../../assets/instagram.png";
 import Linkedin from "../../assets/linkedin.png";
 import Whatsapp from "../../assets/whatsapp.png";
@@ -20,7 +20,7 @@ const Navbar = () => {
           Tega Dev
         </motion.span>
         <div className="social">
-          <a href="" target="_blank">
+          <a href="https://github.com/Phavoa/" target="_blank">
             <img src={Facebook} alt="" width={70} />
           </a>
           <a href="" target="_blank">

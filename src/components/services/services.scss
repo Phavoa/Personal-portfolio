@@ -97,7 +97,7 @@
 
         @include mobile {
           font-size: 16px;
-          width: 150px;
+          width: 170px;
           height: 50px;
         }
       }
@@ -151,10 +151,10 @@
         cursor: pointer;
 
         @include mobile {
-          background-color: transparent;
-          border: 1px solid orange;
+          background-color: orange;
+          border: 1px solid rgb(255, 166, 2);
           border-radius: 5px;
-          color: orange;
+          color: black;
           width: 50%;
           padding: 5px;
         }
