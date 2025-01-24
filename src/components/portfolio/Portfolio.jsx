@@ -5,6 +5,7 @@ import TegaGym from '../../assets/TegaGym.png';
 import QMOil from '../../assets/QMOil.png';
 import PharmX from '../../assets/Pharmx.png';
 import TegaTube from '../../assets/TegaTube.png';
+import MegaEx from '../../assets/megaex.png';
 const items = [
   {
     id: 1,
@@ -33,6 +34,13 @@ const items = [
     link: "https://deluxe-panda-13911d.netlify.app/",
     img: TegaTube,
     desc: "TegaTube is a sophisticated and visually appealing YouTube clone, showcasing advanced React development skills. The platform offers a smooth, responsive interface that replicates YouTube’s core functionalities, providing users with a familiar yet distinct experience",
+  },
+  {
+    id: 5,
+    title: "Megaexe ChatApp",
+    link: "https://tega-chat-app.onrender.com/",
+    img: MegaEx,
+    desc: "This full-stack MERN chat app showcases my skills in building responsive and scalable applications. It features real-time messaging with Socket.IO, secure user authentication, and a dynamic React.js interface. PostgresQl efficiently handles user data and chat history, while Node.js and Express power the backend API. This project highlights my expertise in integrating live features and modern web development.",
   },
 ];
 
