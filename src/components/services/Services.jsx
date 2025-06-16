@@ -81,24 +81,24 @@ const Services = () => {
       <motion.div className="listContainer" variants={variants}>
         {[
           {
-            title: "Frontend Development",
+            title: "Full-Stack Web Development",
             description:
-              "Creating responsive, user-friendly interfaces with modern technologies like React, HTML5, and CSS3. I focus on delivering seamless user experiences across all devices.",
+              "End-to-end solutions: from responsive frontends (React, Next.js) to scalable backends (Node.js, Express, PostgreSQL). I ensure reliability, performance, and security across the stack.",
           },
           {
-            title: "Backend Development",
+            title: "Modern Frontend Design",
             description:
-              "Building robust and scalable server-side applications using Node.js, Express, and databases like MongoDB and SQL. I ensure your web applications are secure and efficient.",
+              "Mobile-first, accessible interfaces built with Tailwind CSS, Shadcn UI, and custom components. I optimize for fast load times and delightful user experiences.",
           },
           {
-            title: "API Integration",
+            title: "API Design & Integration",
             description:
-              "Integrating third-party services and APIs to enhance the functionality of your web applications. From payment gateways to social media, I ensure smooth integration.",
+              "Secure REST and GraphQL APIs, seamless third-party integrations (payment gateways, analytics, AI services). I connect systems for smooth data flow and feature-rich applications.",
           },
           {
-            title: "Maintenance & Support",
+            title: "Proactive Maintenance & Support",
             description:
-              "Offering ongoing support and maintenance services to keep your website running smoothly and up to date with the latest technologies.",
+              "Continuous monitoring, performance tuning, and feature updates. I partner with you to keep your platform secure and up-to-date as your user base grows.",
           },
         ].map((item, index) => (
           <motion.div
@@ -115,9 +115,7 @@ const Services = () => {
                 {visibleDescriptions[index] ? "Hide" : "Show More"}
               </button>
             )}
-            {!isMobile && (
-              <p className="description">{item.description}</p>
-            )}
+            {!isMobile && <p className="description">{item.description}</p>}
           </motion.div>
         ))}
       </motion.div>

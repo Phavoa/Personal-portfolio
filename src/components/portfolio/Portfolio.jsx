@@ -1,14 +1,21 @@
 import { useRef } from "react";
 import "./portfolio.scss";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
-import TegaGym from '../../assets/TegaGym.png';
-import QMOil from '../../assets/QMOil.png';
-import PharmX from '../../assets/Pharmx.png';
-import TegaTube from '../../assets/TegaTube.png';
-import MegaEx from '../../assets/megaex.png';
-import BudgetIq from '../../assets/budgetiq.png';
+import TegaGym from "../../assets/TegaGym.png";
+import QMOil from "../../assets/QMOil.png";
+import PharmX from "../../assets/Pharmx.png";
+import TegaTube from "../../assets/TegaTube.png";
+import MegaEx from "../../assets/megaex.png";
+import BudgetIq from "../../assets/budgetiq.png";
+import WTA from "../../assets/wta.png";
 const items = [
- 
+  {
+    id: 7,
+    title: "WTA",
+    link: "https://www.workingtalentagency.com/",
+    img: WTA,
+    desc: "Working Talent Agency (WTA) is a comprehensive platform built with Next.js, Tailwind CSS, and Framer Motion, designed to connect exceptional Nigerian talents with industry opportunities. It features a dynamic talent directory with custom CMS integration, an engaging about section that highlights industry experience, a SEO-optimized interactive blog powered by a headless CMS, and client-side validated forms for subscriptions and inquiries — all enhanced by smooth, lightweight Framer Motion animations for a refined digital experience.",
+  },
   {
     id: 6,
     title: "BudgetIQ",
@@ -44,7 +51,7 @@ const items = [
     img: TegaGym,
     desc: "FitTrack is your ultimate fitness resource, providing a comprehensive library of exercises at your fingertips. With an intuitive search feature, users can easily find detailed exercise instructions and high-quality videos. The platform’s sleek, user-friendly design ensures a seamless and enjoyable experience",
   },
-  
+
   {
     id: 4,
     title: "React YouTube Clone",
@@ -52,7 +59,6 @@ const items = [
     img: TegaTube,
     desc: "TegaTube is a sophisticated and visually appealing YouTube clone, showcasing advanced React development skills. The platform offers a smooth, responsive interface that replicates YouTube’s core functionalities, providing users with a familiar yet distinct experience",
   },
-  
 ];
 
 const Single = ({ item }) => {
@@ -74,7 +80,7 @@ const Single = ({ item }) => {
           <motion.div className="textContainer" style={{ y }}>
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
-            <a href={item.link} target="_blank" >
+            <a href={item.link} target="_blank">
               <button>See Demo</button>
             </a>
           </motion.div>
