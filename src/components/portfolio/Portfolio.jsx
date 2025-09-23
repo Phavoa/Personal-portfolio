@@ -8,7 +8,16 @@ import TegaTube from "../../assets/TegaTube.png";
 import MegaEx from "../../assets/megaex.png";
 import BudgetIq from "../../assets/budgetiq.png";
 import WTA from "../../assets/wta.png";
+import SteadFast from "../../assets/steadfast.png";
+
 const items = [
+  {
+    id: 7,
+    title: "SteadFast",
+    link: "https://steadfast.ng/",
+    img: SteadFast,
+    desc: "Developed a fully functional e-commerce platform enabling users to browse products, view detailed descriptions, add items to their cart, and securely complete checkout with multiple payment options. The application features a responsive design, user authentication, order tracking, and an intuitive admin dashboard for managing inventory and orders. Built with modern technologies including Next.js, Django, and PostgreSQL to deliver scalability, high performance, and a seamless shopping experience across devices.",
+  },
   {
     id: 7,
     title: "WTA",
